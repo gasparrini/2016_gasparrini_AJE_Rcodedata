@@ -5,7 +5,7 @@
 
 An applications of time-varying DLNMs, specified through an interaction between cross-basis variables and the time variable, to model temporal variations in exposure-lag-response associations between heat and mortality in a multi-country multi-city (MCC) data set. Specifically, this application shows how to model within-season variations, partly reproducing the analysis described in the article:
 
-Gasparrini A, Guo Y, Hashizume M, Lavigne E, Tobias A, Zanobetti A, Schwartz J, Leone M, Michelozzi P, Haidong Kan, Tong S, Honda Y, Kim H, Armstrong BG. Changes in susceptibility to heat during the summer: a multi-country analysis. *American Journal of Epidemiology*. 2016;**183**(11):1027-1036. [[freely available here]](http://www.ag-myresearch.com/2016_gasparrini_aje.html)
+Gasparrini A, Guo Y, Hashizume M, Lavigne E, Tobias A, Zanobetti A, Schwartz J, Leone M, Michelozzi P, Haidong Kan, Tong S, Honda Y, Kim H, Armstrong BG. Changes in susceptibility to heat during the summer: a multi-country analysis. *American Journal of Epidemiology*. 2016;**183**(11):1027-1036. [[freely available here](http://www.ag-myresearch.com/2016_gasparrini_aje.html)]
 
 --------------------------------------------------------------------------------
 

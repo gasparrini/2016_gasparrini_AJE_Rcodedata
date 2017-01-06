@@ -1,5 +1,5 @@
 
-### Updated R code from Gasparrini et al, AJE 2016
+### Updated R code and data from Gasparrini AJE 2016
 
 --------------------------------------------------------------------------------
 
@@ -12,6 +12,6 @@ Gasparrini A, Guo Y, Hashizume M, Lavigne E, Tobias A, Zanobetti A, Schwartz J, 
 The code:
 
   * *regEngWales19902012* stores the daily time series data from 10 locations corresponding to regions of England and Wales in the period 1990--2012
-  * the numbered files from *00.prepdata.R* to *05.plots*, reproduce the results of an example with the subset of data
+  * the numbered files from *00.prepdata.R* to *05.plots.R*, reproduce the results of an example with the subset of data
   
 Download as a ZIP file using the green button *Clone or download* above

@@ -5,13 +5,12 @@
 #     a multi-country analysis"
 #   Antonio Gasparrini and collaborators
 #   American Journal of Epidemiology - 2016
+#   http://www.ag-myresearch.com/2016_gasparrini_aje.html
 #
-# Update: 09 May 2016
-# For any problem with this code, please contact antonio.gasparrini@lshtm.ac.uk
-#
-# * an updated version of this code, (hopefully) compatible with future
-#   versions of the software, is available at the personal website of the
-#   first author (www.ag-myresearch.com)
+# Update: 15 January 2017
+# * an updated version of this code, compatible with future versions of the
+#   software, is available at:
+#   https://github.com/gasparrini/2016_gasparrini_AJE_Rcodedata
 ################################################################################
 
 # This code reproduces the analysis with the subset of data only including UK

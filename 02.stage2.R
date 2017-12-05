@@ -7,7 +7,7 @@
 #   American Journal of Epidemiology - 2016
 #   http://www.ag-myresearch.com/2016_gasparrini_aje.html
 #
-# Update: 15 January 2017
+# Update: 05 December 2017
 # * an updated version of this code, compatible with future versions of the
 #   software, is available at:
 #   https://github.com/gasparrini/2016_gasparrini_AJE_Rcodedata

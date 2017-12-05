@@ -7,7 +7,7 @@
 #   American Journal of Epidemiology - 2016
 #   http://www.ag-myresearch.com/2016_gasparrini_aje.html
 #
-# Update: 15 January 2017
+# Update: 05 December 2017
 # * an updated version of this code, compatible with future versions of the
 #   software, is available at:
 #   https://github.com/gasparrini/2016_gasparrini_AJE_Rcodedata
@@ -61,19 +61,20 @@ for(i in seq(nrow(cities))) {
   # PREDICTION AND REDUCTION TO OVERALL CUMULATIVE EXPOSURE-RESPONSE
   # - AVERAGE, EARLY SUMMER, LATE SUMMER, INTERACTION TERMS
   # NB: CENTERING NOT NEEDED AT THIS STAGE, AS IT DOES NOT CHANGE COEF-VCOV
-  red <- crossreduce(cb,model)
+  cen <- mean(data$tmean,na.rm=T)
+  red <- crossreduce(cb,model,cen=cen)
   coef[i,] <- coef(red)
   vcov[[i]] <- vcov(red)
 
-  red1 <- crossreduce(cb,model1)
+  red1 <- crossreduce(cb,model1,cen=cen)
   coef1[i,] <- coef(red1)
   vcov1[[i]] <- vcov(red1)
 
-  red2 <- crossreduce(cb,model2)
+  red2 <- crossreduce(cb,model2,cen=cen)
   coef2[i,] <- coef(red2)
   vcov2[[i]] <- vcov(red2)
 
-  redint <- crossreduce(int1,model1)
+  redint <- crossreduce(int1,model1,cen=cen)
   coefint[i,] <- coef(redint)
   vcovint[[i]] <- vcov(redint)
 }
